@@ -1,6 +1,6 @@
 import React from 'react'
-import MessageOutputArea from './../chat/MessageOutputArea'
-import MessageInputArea from './../chat/MessageInputArea'
+import MessengerMessageOutputAreaView from '../chat/MessengerMessageOutputAreaView'
+import MessengerMessageInputAreaView from '../chat/MessengerMessageInputAreaView'
 
 // CSS
 import './Messenger.css'
@@ -8,8 +8,8 @@ import './Messenger.css'
 const Messenger = () => {
   return (
     <div className='chat'>
-      <MessageOutputArea />
-      <MessageInputArea />
+      <MessengerMessageOutputAreaView />
+      <MessengerMessageInputAreaView />
     </div>
   )
 }
